@@ -4,26 +4,6 @@ import java.util.SortedSet;
 
 /**
  * @author barry flamm
- * 
- * Veracde Code Exercise
- * 
- * Instructions:
- * Write a Java or Python program that takes a URL as input and:
-1.    Validates it
-2.    Accesses content
-3.    Parses content to find other URLs*
-4.    Repeats 2 and 3 recursively until 50 URLs are found or nothing is left to find.
-5.    Reports all found URLs
-6.    Should not repeat URLs
-7.    Reports any other possible errors
- 
-*Note: Linked URLs refer to relative or absolute links in a href attribute, 
-*i.e. <a href=”/foo.jsp”></a> 
-*  or 
-*<a href=”[http://somewhere.overtherainbow.xn--com%3e%3c-qw3b/a]Error! Hyperlink reference not valid.>.
-*
-* Parsing links bound through Javascript events is not expected.
- *
  */
 public class URLCrawler 
 {
